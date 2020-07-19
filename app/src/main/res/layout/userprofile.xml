@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8ff3353"
+    android:weightSum="1">
+
+    <TextView
+        android:id= "@+id/txFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id= "@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id= "@+id/txLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id= "@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+    android:id= "@+id/txgender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gender(M/F):"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    />
+
+    <EditText
+        android:id= "@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id= "@+id/txBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth (yyyy/mm/dd):"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/BirthDate" />
+
+    <TextView
+        android:id= "@+id/txaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id= "@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.60" />
+
+    <TextView
+        android:id= "@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id= "@+id/ContactNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Next"
+        android:id="@+id/nextbuttonprofile"
+        android:background="#ffeb70"
+        android:layout_margin="10dp"
+        android:layout_weight="0.04"
+        android:clickable="true" />
+
+
+
+
+</LinearLayout>

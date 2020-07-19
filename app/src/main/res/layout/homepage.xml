@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8ff3353"
+    android:weightSum="1"
+    android:id="@+id/home">
+
+    <Button
+
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Tap for Emergency"
+        android:id="@+id/tapbttn"
+        android:background="#ffeb70"
+        android:layout_marginBottom="30sp"
+        android:layout_marginTop="30sp"/>
+
+    <Button
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Update Profile"
+        android:id="@+id/profilebttn"
+        android:background="#ffeb70"
+         />
+
+</LinearLayout>

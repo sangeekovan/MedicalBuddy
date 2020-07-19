@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8ff3353"
+    android:weightSum="1">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PatientRadioGroup">
+
+
+            <RadioButton
+            android:text="Kids/Babies"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Kids" />
+
+        <RadioButton
+            android:text="Adult"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Adult" />
+
+
+</RadioGroup>
+
+
+
+
+
+    <TextView
+        android:id= "@+id/textviewMedicalCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Any medical condition? :"
+        android:textSize="20sp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/ETMedicalCond"
+        android:layout_weight="0.38"
+        android:hint="For example:  Asthma..etc" />
+
+    <TextView
+        android:id= "@+id/textviewMedication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Any medication being taken?:"
+        android:textSize="20sp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/ETmedication"
+        android:layout_weight="0.37"
+        android:hint="For example: ibuprofen....etc" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Next"
+        android:id="@+id/Nextbttn"
+        android:background="#ffeb70"
+        android:layout_margin="10dp" />
+
+
+
+</LinearLayout>

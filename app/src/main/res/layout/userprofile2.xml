@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8ff3353">>
+
+
+    <TextView
+        android:id= "@+id/txEmergencyCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency contact number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/EmergencyContact" />
+
+
+    <TextView
+        android:id= "@+id/txInsuComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insurance Company:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id= "@+id/InsuranceComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id= "@+id/txInsuPol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insurance Policy Number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id= "@+id/InsurancePolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id= "@+id/TxMedicalCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Any medical condition? :"
+        android:textSize="20sp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/EtMedicalCondProfile"
+        android:layout_weight="0.06"
+        android:hint="For example:  Asthma..etc" />
+
+    <TextView
+        android:id= "@+id/TXMedication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Any medication being taken?:"
+        android:textSize="20sp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/ETmedicationProfile"
+        android:layout_weight="0.06"
+        android:hint="For example: ibuprofen....etc" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Update"
+        android:id="@+id/updatebttn"
+        android:background="#ffeb70"
+        android:layout_margin="10dp" />
+
+
+
+</LinearLayout>

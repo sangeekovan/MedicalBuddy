@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8ff3353"
+    android:weightSum="1"
+    android:id="@+id/home">
+
+    <TextView
+        android:id= "@+id/notifiedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your profile and emergency information have been sent to the hospital. The hospital has been notified of your emergency!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="0.30" />
+
+    <Button
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Back"
+        android:id="@+id/backbttn"
+        android:background="#ffeb70"
+        />
+
+</LinearLayout>
